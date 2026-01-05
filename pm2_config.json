@@ -1,0 +1,20 @@
+{
+  "apps": [
+    {
+      "name": "whatsapp-api",
+      "script": "npm",
+      "args": "run dev:server",
+      "cwd": "/path/to/madureira_seguros",
+      "automatically": true,
+      "restart_delay": 5000
+    },
+    {
+      "name": "madureira-seguros",
+      "script": "npm",
+      "args": "run start",
+      "cwd": "/path/to/madureira_seguros",
+      "automatically": true,
+      "restart_delay": 5000
+    }
+  ]
+}

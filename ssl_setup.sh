@@ -12,7 +12,7 @@ sudo apt install -y certbot python3-certbot-nginx
 
 # Obtain SSL certificate
 echo "Obtaining SSL certificate..."
-sudo certbot --nginx -d madureiraseguros.com.br
+sudo certbot --nginx -d madureiraseguros.com.br -d www.madureiraseguros.com.br
 
 # Auto-renew SSL certificate
 echo "Setting up SSL certificate auto-renewal..."

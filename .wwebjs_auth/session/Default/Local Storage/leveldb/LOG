@@ -1,3 +1,6 @@
-2025/12/30-16:53:16.272 2d50 Reusing MANIFEST C:\Users\Gabriel\Downloads\madureira_segurosa\madureira_seguros\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
-2025/12/30-16:53:16.272 2d50 Recovering log #4
-2025/12/30-16:53:16.274 2d50 Reusing old log C:\Users\Gabriel\Downloads\madureira_segurosa\madureira_seguros\.wwebjs_auth\session\Default\Local Storage\leveldb/000004.log 
+2026/01/05-19:56:23.758 170 Reusing MANIFEST C:\Users\Gabriel\Downloads\madureira_segurosa\madureira_seguros\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
+2026/01/05-19:56:23.758 170 Recovering log #3
+2026/01/05-19:56:23.759 170 Reusing old log C:\Users\Gabriel\Downloads\madureira_segurosa\madureira_seguros\.wwebjs_auth\session\Default\Local Storage\leveldb/000003.log 
+2026/01/05-19:57:24.649 878c Level-0 table #5: started
+2026/01/05-19:57:24.651 878c Level-0 table #5: 20803 bytes OK
+2026/01/05-19:57:24.652 878c Delete type=0 #3

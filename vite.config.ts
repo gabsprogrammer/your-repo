@@ -29,9 +29,11 @@ export default defineConfig({
     host: true,
     proxy: {
       '/api': {
-        target: 'http://localhost:3001',
+        target: 'http://localhost:3002',
         changeOrigin: true,
         secure: false,
+        // Add timeout and connection optimizations
+  
       }
     },
     allowedHosts: [
@@ -42,6 +44,9 @@ export default defineConfig({
       ".manusvm.computer",
       "localhost",
       "127.0.0.1",
+      "madureiraseguros.com.br",
+      "www.madureiraseguros.com.br",
+      "apiplacas.com.br"
     ],
     fs: {
       strict: true,

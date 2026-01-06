@@ -46,7 +46,7 @@ server {
     server_name madureiraseguros.com.br;
 
     location / {
-        proxy_pass http://localhost:3000;
+        proxy_pass http://localhost:3002;
         proxy_http_version 1.1;
         proxy_set_header Upgrade $http_upgrade;
         proxy_set_header Connection "upgrade";
@@ -67,13 +67,9 @@ sudo nginx -t
 echo "Restarting Nginx..."
 sudo systemctl restart nginx
 
-# Start the WhatsApp API server in the background using PM2
-echo "Starting WhatsApp API server..."
-pm2 start "npm run dev:server" --name "whatsapp-api"
-
-# Start the main application using PM2
-echo "Starting the main application..."
-pm2 start "npm run start" --name "madureira-seguros"
+# Start the application server using PM2
+echo "Starting the application server..."
+pm2 start pm2_config.json
 
 # Save PM2 processes
 echo "Saving PM2 processes..."
